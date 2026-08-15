@@ -1,4 +1,6 @@
 # Electricity-price-forecast-with-PyTorch
-A machine learning project to use Pytorch, and in particular LSTMs and/or Transformers implemented therein to forecast electricity prices
+A machine learning project to use Pytorch, and in particular an LSTM implemented therein to forecast electricity prices
 This is work in progress, over the next weeks more and more pieces will appear. I will explain here how to use them.
-During the work in progress some .ipynb notebooks will appear here for the different parts of the process (data collection, training, fine-tuning, evaluation), but in the end there will be (at least one) .py that does everything in one piece to make it easily usable.
+- The notebook "getting_the_data.ipynb" is about downloading the official data and saving it in a .csv
+- In "price_data.csv" price data downloaded that way is saved
+- The notebook "The naive LSTM.ipynb" includes the setup, training and evaluating of a LSTM-based model. The class "LSTM_predictor_improved" defines the best version of the model.
